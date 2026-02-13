@@ -13,7 +13,7 @@ st.set_page_config(
     page_icon="📊"
 )
 
-st.title("📊  Churn Intelligence Dashboard")
+st.title("📊 Stack_ML Churn Intelligence System")
 st.markdown("Enterprise Employee Risk Monitoring System")
 
 # --------------------------------------------------
