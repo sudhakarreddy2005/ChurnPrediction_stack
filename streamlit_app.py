@@ -105,3 +105,11 @@ if st.button("🔍 Predict Churn Risk"):
 
     st.progress(float(probability))
 
+    st.markdown("""
+---
+© 2026 Stack_ML Analytics | Churn Intelligence System  
+Built with Machine Learning • Powered by Stacking Ensemble (CatBoost + Logistic Regression)  
+For HR Risk Monitoring & Workforce Analytics  
+""")
+
+
