@@ -1,0 +1,8 @@
+{
+    "model_name": "HR Churn Stacked Model",
+    "version": "1.0.0",
+    "threshold": 0.4,
+    "created_by": "Sudhakar Reddy",
+    "model_type": "StackingClassifier",
+    "notes": "Stacked model with tuned CatBoost + LR"
+}

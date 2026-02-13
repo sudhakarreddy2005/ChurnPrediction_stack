@@ -1,0 +1,13 @@
+flask
+gunicorn
+pandas
+numpy
+scikit-learn
+xgboost
+catboost
+joblib
+reportlab
+streamlit
+shap
+
+plotly

@@ -1,0 +1,97 @@
+2026-02-13 20:05:23,732 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-13 20:05:23,732 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-13 20:05:23,737 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:05:25,385 - WARNING -  * Debugger is active!
+2026-02-13 20:05:25,388 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:06:52,085 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:06:52,085 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:06:52,094 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:06:52,708 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:06:54,729 - WARNING -  * Debugger is active!
+2026-02-13 20:06:54,733 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:06:55,378 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:06:55,379 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:06:55,964 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:06:55,965 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:06:55,975 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:06:56,919 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:07:04,478 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-13 20:07:04,478 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-13 20:07:04,484 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:07:06,097 - WARNING -  * Debugger is active!
+2026-02-13 20:07:06,101 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:10:05,641 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:05,642 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:05,642 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:06,554 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:10:08,232 - WARNING -  * Debugger is active!
+2026-02-13 20:10:08,235 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:10:17,935 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:17,937 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:17,943 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:19,274 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:10:21,045 - WARNING -  * Debugger is active!
+2026-02-13 20:10:21,049 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:10:28,314 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:28,315 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:28,331 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:29,051 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:10:30,856 - WARNING -  * Debugger is active!
+2026-02-13 20:10:30,859 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:10:31,329 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:31,341 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:32,237 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:32,238 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:32,247 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:10:32,859 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:10:34,534 - WARNING -  * Debugger is active!
+2026-02-13 20:10:34,538 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:10:42,293 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.243.250.18:8000
+2026-02-13 20:10:42,294 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-13 20:10:42,302 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:10:44,030 - WARNING -  * Debugger is active!
+2026-02-13 20:10:44,034 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:11:06,870 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:11:06,871 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:11:06,883 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:11:08,055 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:11:09,795 - WARNING -  * Debugger is active!
+2026-02-13 20:11:09,799 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:11:19,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.243.250.18:8000
+2026-02-13 20:11:19,136 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-13 20:11:19,147 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:11:20,821 - WARNING -  * Debugger is active!
+2026-02-13 20:11:20,824 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:11:31,412 - INFO - 127.0.0.1 - - [13/Feb/2026 20:11:31] "GET / HTTP/1.1" 200 -
+2026-02-13 20:11:31,485 - INFO - 127.0.0.1 - - [13/Feb/2026 20:11:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-13 20:11:40,790 - INFO - 127.0.0.1 - - [13/Feb/2026 20:11:40] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2026-02-13 20:11:47,920 - INFO - 127.0.0.1 - - [13/Feb/2026 20:11:47] "GET / HTTP/1.1" 200 -
+2026-02-13 20:12:07,010 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:12:07,011 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:12:07,055 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:12:07,943 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:12:09,811 - WARNING -  * Debugger is active!
+2026-02-13 20:12:09,814 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:12:14,353 - INFO - 127.0.0.1 - - [13/Feb/2026 20:12:14] "GET / HTTP/1.1" 200 -
+2026-02-13 20:12:18,084 - INFO - 127.0.0.1 - - [13/Feb/2026 20:12:18] "GET / HTTP/1.1" 200 -
+2026-02-13 20:12:18,334 - INFO - 127.0.0.1 - - [13/Feb/2026 20:12:18] "GET / HTTP/1.1" 200 -
+2026-02-13 20:12:20,688 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:12:20,695 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:12:21,811 - INFO -  * Restarting with watchdog (inotify)
+2026-02-13 20:12:23,601 - WARNING -  * Debugger is active!
+2026-02-13 20:12:23,605 - INFO -  * Debugger PIN: 411-287-629
+2026-02-13 20:12:24,157 - INFO - 127.0.0.1 - - [13/Feb/2026 20:12:24] "GET / HTTP/1.1" 200 -
+2026-02-13 20:12:24,171 - INFO - 127.0.0.1 - - [13/Feb/2026 20:12:24] "GET / HTTP/1.1" 200 -
+2026-02-13 20:12:24,186 - INFO - 127.0.0.1 - - [13/Feb/2026 20:12:24] "GET / HTTP/1.1" 200 -
+2026-02-13 20:12:24,188 - INFO - 127.0.0.1 - - [13/Feb/2026 20:12:24] "GET / HTTP/1.1" 200 -
+2026-02-13 20:25:24,427 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:25:24,439 - INFO -  * Detected change in '/home/sudhakar-reddy/anaconda_projects/notebooks/jupyterdatascience/4.0Gradientmls_Churn/app/app.py', reloading
+2026-02-13 20:25:25,235 - INFO -  * Restarting with watchdog (inotify)
