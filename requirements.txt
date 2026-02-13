@@ -6,8 +6,5 @@ scikit-learn
 xgboost
 catboost
 joblib
-reportlab
 streamlit
-shap
-
 plotly
