@@ -3,6 +3,18 @@
 
 🔗 **Live App:** https://churnpredictionstack.streamlit.app/
 
+# 📊 Streamlit Dashboard
+
+Features:
+
+- Interactive employee profile form
+- Risk probability display
+- Risk category (Low / Medium / High)
+- Clean enterprise UI
+- Real-time prediction using stacked model
+- Production artifact loading via joblib
+
+
 ![Streamlit_app](images/churn_streamlit.png)
 
 # 📦 Project Structure
@@ -242,19 +254,6 @@ Selected **0.4 threshold** for best business balance:
 | ROC-AUC | 0.83+ |
 
 Balanced and business-ready performance.
-
-
-
-# 📊 Streamlit Dashboard
-
-Features:
-
-- Interactive employee profile form
-- Risk probability display
-- Risk category (Low / Medium / High)
-- Clean enterprise UI
-- Real-time prediction using stacked model
-- Production artifact loading via joblib
 
 
 
