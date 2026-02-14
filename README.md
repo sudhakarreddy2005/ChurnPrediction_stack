@@ -3,7 +3,7 @@
 
 🔗 **Live App:** https://churnpredictionstack.streamlit.app/
 
-# 📊 Streamlit Dashboard
+# 🖥️ Streamlit Dashboard
 
 Features:
 
