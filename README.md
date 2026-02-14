@@ -3,7 +3,7 @@
 
 🔗 **Live App:** https://churnpredictionstack.streamlit.app/
 
-
+![Streamlit_app](images/churn_streamlit.png)
 
 # 📦 Project Structure
 
