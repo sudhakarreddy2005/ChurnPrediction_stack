@@ -1,33 +1,30 @@
 # 📊 HR Churn Intelligence System — End-to-End Machine Learning Project
 
-### 🔗 Live Deployments    
-- **Streamlit Web App:** https://churnpredictionstack.streamlit.app/ 
+### 🔗 Live Deployment  
+- **Streamlit Web App:** https://churnpredictionstack.streamlit.app/
 
 ---
 
 ## 📘 Overview
 
-This project predicts **employee attrition (churn risk)** using structured HR workforce data.
+This project predicts **employee attrition (churn risk)** using structured HR data.
 
-It demonstrates a complete **Machine Learning lifecycle** — from data analysis and advanced ensemble modeling to deployment using **Flask REST API** and an interactive **Streamlit dashboard**.
+It demonstrates a complete **Machine Learning lifecycle** — from exploratory data analysis and ensemble modeling to deployment using **Flask API** and an interactive **Streamlit Dashboard**.
 
 ---
 
-### 🚀 Key Highlights
+## 🚀 Key Highlights
 
-- 📊 Deep Exploratory Data Analysis (EDA)
-- 🤖 Comparative Model Evaluation (LR, RF, XGBoost, CatBoost)
+- 📊 Exploratory Data Analysis (9 Business Insight Plots)
+- 🤖 Model Comparison (LR, RF, XGBoost, CatBoost)
 - 🧠 Stacked Ensemble Model (Final Production Model)
-- 🎯 Threshold Optimization for Business Needs
-- 🌐 Production-ready Flask API
-- 📊 Enterprise-grade Streamlit Dashboard
-- 🚀 Deployment on Render & Streamlit Cloud
+- 🎯 Threshold Optimization (Business-ready)
+- 🌐 Flask REST API Deployment
+- 📊 Enterprise-style Streamlit Dashboard
 
 ---
 
 # 📊 Dataset Information
-
-The dataset contains employee-level HR attributes used to predict attrition.
 
 | Feature | Description |
 |----------|-------------|
@@ -35,16 +32,13 @@ The dataset contains employee-level HR attributes used to predict attrition.
 | Department | Business department |
 | Designation | Job role |
 | Salary_Band | Compensation category |
-| Work_Life_Balance | Work-life satisfaction level |
+| Work_Life_Balance | Work-life satisfaction |
 | Job_Satisfaction | Job happiness rating |
-| Environment_Satisfaction | Workplace satisfaction |
-| Relationship_Satisfaction | Peer relationship rating |
-| Performance_Band | Performance evaluation |
+| Performance_Band | Performance level |
 | Travel_Frequency | Business travel frequency |
 | OverTime | Overtime status |
 | Tenure_Band | Experience band |
-| Years_With_Current_Manager | Reporting duration |
-| Attrition | 1 = Left Company, 0 = Stayed |
+| Attrition | 1 = Left, 0 = Stayed |
 
 ---
 
@@ -54,67 +48,88 @@ Performed in `hr_churn_notebook.ipynb`
 
 ---
 
-### 1️⃣ Salary Band vs Attrition
+## 1️⃣ Churn Distribution by Gender
+
+![Churn vs Gender](images/churn_vs_gender.png)
+
+**Insight:**  
+More male employees are observed in churn cases (relative workforce size should be considered).
+
+---
+
+## 2️⃣ Tenure vs Attrition
+
+![Tenure vs Attrition](images/tenure_vs_attrition.png)
+
+**Insight:**  
+Employees within **6–24 months** are most likely to churn.
+
+---
+
+## 3️⃣ Designation & Tenure vs Churn
+
+![Designation Tenure](images/designation_tenure_vs_attrition.png)
+
+**Insight Highlights:**
+- Lab Technicians & Sales Reps churn early (0–6 months)
+- HR & Sales churn in 6–24 months
+- Research Scientists churn in 5–10 years
+
+Retention strategy must be role-specific.
+
+---
+
+## 4️⃣ Performance vs Job Satisfaction vs Churn
+
+![Performance Job Satisfaction](images/performance_job_satisfaction.png)
+
+**Insight:**  
+High-performing employees with low job satisfaction show the highest churn risk.
+
+---
+
+## 5️⃣ Performance vs Department
+
+![Performance Department](images/performance_department.png)
+
+**Insight:**  
+Sales (mid-performers) and R&D (high-performers) show elevated churn.
+
+---
+
+## 6️⃣ Salary Band vs Attrition
+
 ![Salary vs Attrition](images/salary_vs_attrition.png)
 
-> 💬 **Insight:**  
-Low salary band employees show significantly higher churn probability.
+**Insight:**  
+Low salary employees show the highest churn probability.
 
 ---
 
-### 2️⃣ Work-Life Balance vs Attrition
-![Work Life Balance](images/wlb_vs_attrition.png)
+## 7️⃣ Salary vs Commute Distance vs Churn
 
-> 💬 **Insight:**  
-Low work-life balance strongly correlates with attrition.
+![Salary Commute](images/salary_commute_attrition.png)
 
----
-
-### 3️⃣ Job Satisfaction vs Attrition
-![Job Satisfaction](images/job_satisfaction_vs_attrition.png)
-
-> 💬 **Insight:**  
-Low job satisfaction is one of the strongest churn indicators.
+**Insight:**  
+Low salary + long commute = highest churn risk.
 
 ---
 
-### 4️⃣ Travel Frequency vs Attrition
-![Travel Frequency](images/travel_vs_attrition.png)
+## 8️⃣ Work-Life Balance vs Travel Frequency
 
-> 💬 **Insight:**  
-Frequent business travel increases attrition probability.
+![WLB Travel](images/wlb_travel_attrition.png)
 
----
-
-### 5️⃣ Tenure Band vs Attrition
-![Tenure Band](images/tenure_vs_attrition.png)
-
-> 💬 **Insight:**  
-Early-tenure employees show higher churn risk.
+**Insight:**  
+Low work-life balance combined with frequent travel significantly increases churn.
 
 ---
 
-### 6️⃣ Overtime vs Attrition
-![Overtime](images/overtime_vs_attrition.png)
+## 9️⃣ Overtime vs Department vs Churn
 
-> 💬 **Insight:**  
-Overtime employees have elevated attrition levels.
+![Overtime Department](images/overtime_department_attrition.png)
 
----
-
-### 7️⃣ Performance Band vs Attrition
-![Performance Band](images/performance_vs_attrition.png)
-
-> 💬 **Insight:**  
-High performers with dissatisfaction leave faster.
-
----
-
-### 8️⃣ Department-wise Attrition
-![Department](images/department_vs_attrition.png)
-
-> 💬 **Insight:**  
-Sales department exhibits the highest churn rate.
+**Insight:**  
+Higher overtime exposure correlates with elevated churn, especially in Sales.
 
 ---
 
@@ -126,45 +141,31 @@ Sales department exhibits the highest churn rate.
 | Random Forest | 0.84 | 0.50 | 0.11 | 0.18 | 0.79 |
 | XGBoost | 0.84 | 0.49 | 0.45 | 0.47 | 0.80 |
 | CatBoost | 0.87 | 0.68 | 0.40 | 0.51 | 0.80 |
-| 🏆 Stacked Ensemble (Final) | **0.89** | **0.74** | **0.49** | **0.59** | **0.83+** |
+| 🏆 Stacked Ensemble | **0.89** | **0.74** | **0.49** | **0.59** | **0.83+** |
 
 ---
 
-# 🏆 Final Model Selection
+# 🏆 Final Model
 
 ### 🥇 Stacked Model @ 0.4 Threshold
 
-- Precision (Churn): 0.74  
-- Recall (Churn): 0.49  
+- Precision: 0.74  
+- Recall: 0.49  
 - F1 Score: 0.59  
 - Accuracy: 0.89  
 
-Balanced and business-ready performance.
+Balanced and production-ready performance.
 
 ---
 
-# ⚙️ Flask REST API — `app.py`
+# ⚙️ Flask REST API
 
 ### Endpoints
 
 | Route | Method | Description |
 |--------|---------|-------------|
 | `/` | GET | Health check |
-| `/predict` | POST | Returns churn probability and risk category |
-
-### Example Request
-
-```json
-{
-  "Age": 35,
-  "Department": "Sales",
-  "Salary_Band": "Low",
-  "Work_Life_Balance": "Low",
-  "Job_Satisfaction": "Low",
-  "Travel_Frequency": "Frequently",
-  "OverTime": 1
-}
-```
+| `/predict` | POST | Returns churn probability & risk category |
 
 ### Example Response
 
@@ -181,10 +182,10 @@ Balanced and business-ready performance.
 # 📊 Streamlit Dashboard Features
 
 - Interactive employee profile form
-- Risk probability meter
+- Risk probability display
 - Risk category (Low / Medium / High)
-- Enterprise-style UI
-
+- Clean enterprise UI
+- Downloadable risk report
 
 ---
 
@@ -200,42 +201,29 @@ HR-Churn-Intelligence/
 │   └── feature_schema.json
 │
 ├── images/
-│   ├── salary_vs_attrition.png
-│   ├── wlb_vs_attrition.png
-│   ├── job_satisfaction_vs_attrition.png
-│   ├── travel_vs_attrition.png
+│   ├── churn_vs_gender.png
 │   ├── tenure_vs_attrition.png
-│   ├── overtime_vs_attrition.png
-│   ├── performance_vs_attrition.png
-│   └── department_vs_attrition.png
+│   ├── designation_tenure_vs_attrition.png
+│   ├── performance_job_satisfaction.png
+│   ├── performance_department.png
+│   ├── salary_vs_attrition.png
+│   ├── salary_commute_attrition.png
+│   ├── wlb_travel_attrition.png
+│   └── overtime_department_attrition.png
 │
 ├── app/
 │   └── app.py
 │
 ├── streamlit_app.py
-│
-├── notebookd/
-│    └──  churn_notebook.ipynb
-
+├── hr_churn_notebook.ipynb
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# 🧠 Skills Demonstrated
-
-- Feature Engineering
-- Ensemble Learning & Stacking
-- Cross Validation & Hyperparameter Tuning
-- Threshold Optimization
-- API Development (Flask)
-- Dashboard Development (Streamlit)
-
----
-
 # 📌 Conclusion
 
-This project demonstrates a production-ready **HR Analytics System** capable of identifying high-risk employees using advanced ensemble machine learning.
+This project delivers a production-ready **HR Analytics Intelligence System** capable of identifying high-risk employees using advanced ensemble learning.
 
-The final stacked model delivers strong precision while maintaining meaningful recall, making it suitable for real-world workforce monitoring and retention planning.
+The final stacked model provides strong precision while maintaining meaningful recall, making it suitable for strategic workforce retention planning.
